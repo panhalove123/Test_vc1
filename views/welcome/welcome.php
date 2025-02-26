@@ -5,10 +5,10 @@
 // if (isset($_SESSION['user_id'])) :
  ?>
 <div class="container">
-    <h1>Welcome to PHP</h1>
+    <h1>Welcome to PHP !</h1>
 </div>
 <?php 
 // else: 
-//     // $this->redirect("/users/login"); 
+//     $this->redirect("/users/login"); 
 // endif;   
 ?>
