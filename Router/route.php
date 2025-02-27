@@ -19,5 +19,8 @@ $route->get("/login", [LoginController::class, 'index']);
 
 //profile
 $route->get("/profile", [LoginController::class, 'profile']);
+$route->get("/register", [ResgisterController::class, 'register']);
+
+$route->get("/login", [LoginController::class, 'index']);
 
 $route->route();
